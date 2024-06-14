@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dbe0e4;
+}
+
+.cap1 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #d08010;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+}
+
+.detalhe {
+    font-family: 'Courier New', Courier, monospace;
+    color: #7a4b09;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.paragrafo p{
+    color: rgb(10, 47, 47);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 12px;
+    text-align: center;
+}
+
+.capII h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #556a34;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+}
+
+.Img {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 15px;
+    color:#4c381b;
+}
+
+img {
+    height: 30em;
+    width: 30em;
+}
+
+
