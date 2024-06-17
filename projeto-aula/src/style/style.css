@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hero {
+    background-image: url(/projeto-aula/src/img/front-end.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: right center;
+    padding-top: 1px;
+}
+
+.hero-content {
+    margin: 80px auto 0;
+    width: 80%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-content li {
+    font-size: 56px;
+    justify-content: end;
+}
