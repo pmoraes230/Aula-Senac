@@ -24,6 +24,21 @@ a {
     padding-top: 1px;
 }
 
+.hero ul {
+    display: flex;
+    justify-content: end;
+    padding: 15px 50px;
+}
+
+.hero li {
+    padding-right: 3rem;
+}
+
+.hero ul li a:hover {
+    color: #c9cc09;
+    text-decoration:solid;
+}
+
 .hero-content {
     margin: 80px auto 0;
     width: 80%;
@@ -31,7 +46,7 @@ a {
     color: #ffffff;
 }
 
-.hero-content li {
-    font-size: 56px;
-    justify-content: end;
+.hero-content p {
+    color: #94f8ff;
 }
+
