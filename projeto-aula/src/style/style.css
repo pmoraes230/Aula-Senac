@@ -54,6 +54,7 @@ a {
     background-image: url(/projeto-aula/src/img/images1.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position:center;
 }
 
 section {
@@ -82,6 +83,16 @@ header {
 
 article p {
     padding: 1rem;
+}
+
+article a {
+    padding: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+article a:hover {
+    background-color: #000000;
 }
 
 footer {
