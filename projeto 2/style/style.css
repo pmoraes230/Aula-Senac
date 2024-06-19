@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .navbar {
-    background-color: #030303;
+    background-color: #2a2c2e;
     color: #ccc;
     display: flex;
     justify-content:space-around;
@@ -44,4 +44,8 @@ main {
     max-width: 950px;
 }
 
-
+.letter {
+    text-align: center;
+    font-size: 25px;
+    padding: 2rem;
+}
