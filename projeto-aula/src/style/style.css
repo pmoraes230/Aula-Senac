@@ -46,6 +46,7 @@ body {
 .hero nav ul {
     margin: 20px 80px 0 0;
     text-align: right;
+    position: fixed; 
 }
 
 .hero nav li {
@@ -100,4 +101,22 @@ article img {
     max-width: 100%;
     display: block;
     margin: 1rem auto 20px;
+}
+
+.container article a {
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+    text-decoration: none;
+    color: #383838;
+}
+
+.container article a:hover{
+    color: #0088ff;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #ccc;
+    text-align: center;
 }
