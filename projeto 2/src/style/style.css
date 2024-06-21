@@ -41,10 +41,13 @@ body {
 }
 
 a.header_nav_active{
-    color: #0c1014;
     background-color: #cbe300;
     pointer-events: none;
 }  
+
+.header_nav_active a:hover {
+    color: #0c1014;
+}
 
 /* Conteudo */
 .main_title {
@@ -101,12 +104,14 @@ a.header_nav_active{
     text-align: center;
     background-color: #cbe300;
     color: #0c1014;
-    padding: 1rem;
-    border-radius: 3px;
+    padding: 16px 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .pricing_plan_cta:hover {
     border: 2px solid #cbe300;
-    background-color: #0c1014;
+    background-color: transparent;
     color: #fff;
 }
