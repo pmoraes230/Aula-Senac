@@ -1,75 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./src/style/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="navbar">
-        <div class="navbar-content">
-            <h3>Myserver</h3>
-        </div>
+        <div class="navbar-content">Myserver</div>
 
         <nav class="menu-list">
             <ul class="menu">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Planos</a></li>
+                <li><a href="#" class="header_nav_active">Planos</a></li>
                 <li><a href="#">Suporte</a></li>
                 <li><a href="#">Contatos</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <div class="letter">
-            <h1>Escolha seu Plano</h1>
+    <h1 class="main_title">Escolha seu Plano</h1>
+
+    <section class="pricing">
+        <div class="pricing_plan">
+            <h2 class="class_plan_title">Essencial</h2>
+            <p><span class="pricing_plan_price">3.95</span> / mês</p>
+            <ul class="pricing_plan_features">
+                <li>1 Website</li>
+                <li>1GB de Armazenamento</li>
+                <li>10GB de transferência</li>
+            </ul>
+            <a href="#" class="pricing_plan_cta">Assine Já</a>
         </div>
-        <section class="container">
-            <article>
-                <header>
-                    <h2>Essencial</h2>
-                    <h3>R$ 3.95/mês</h3>
-                </header>
-                <ul>
-                    <li>1 Website</li>
-                    <li>1GB de Armazenamento</li>
-                    <li>100GB de Transferência</li>
-                </ul>
-                <a href="#" class="btn">Assine já</a>
-            </article>
 
-            <article>
-                <header>
-                    <h2>Premium</h2>
-                    <h3>R$ 7.95/mês</h3>
-                </header>
-                <ul>
-                    <li>5 Website</li>
-                    <li>3GB de Armazenamento</li>
-                    <li>Transferência ilimitada</li>
-                    <li>10 horas de suporte manuais</li>
-                </ul>
-                <a href="#" class="btn">Assine já</a>
-            </article>
+        <div class="pricing_plan">
+            <h2 class="class_plan_title">Premium</h2>
+            <p><span class="pricing_plan_price">7.95</span> / mês</p>
+            <ul class="pricing_plan_features">
+                <li>5 Website</li>
+                <li>3GB de Armazenamento</li>
+                <li>transferência ilimitada</li>
+                <li>10 horas de suporte mensais</li>
+            </ul>
+            <a href="#" class="pricing_plan_cta">Assine Já</a>
+        </div>
 
-            <article>
-                <header>
-                    <h2>Deluxe</h2>
-                    <h3>R$ 13.95/mês</h3>
-                </header>
-                <ul>
-                    <li>10 Website</li>
-                    <li>3GB de Armazenamento</li>
-                    <li>Transferência ilimitada</li>
-                    <li>10 horas de suporte manuais</li>
-                    <li>Email personalizado</li>
-                </ul>
-                <a href="#" class="btn">Assine já</a>
-            </article>
-        </section>
-    </main>
+        <div class="pricing_plan">
+            <h2 class="class_plan_title">Deluxe</h2>
+            <p><span class="pricing_plan_price">13.95</span> / mês</p>
+            <ul class="pricing_plan_features">
+                <li>10 Website</li>
+                <li>30GB de Armazenamento</li>
+                <li>transferência ilimitada</li>
+                <li>30 horas de suporte mensais</li>
+                <li>Email personalizado</li>
+            </ul>
+            <a href="#" class="pricing_plan_cta">Assine Já</a>
+        </div>
+    </section>
 </body>
+
 </html>
