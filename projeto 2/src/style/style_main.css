@@ -1,0 +1,107 @@
+body {
+    background-color: #030303;
+    color: #fffefe;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Menu */
+.navbar {
+    display: flex;
+    background-color: #181818;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    color: #cbe300;
+}
+
+.navbar-content {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.navbar .menu-list ul {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    gap: 16px;
+}
+
+.navbar .menu-list a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 6px;
+}
+
+.navbar .menu-list a:hover {
+    text-decoration: underline;
+    background-color: #cbe300;
+    color: #0c1014;
+}
+
+/* main_page */
+.container {
+    height: 90vh;
+    width: auto;
+    background-image: url(../img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+
+.letter_main {
+    text-align: center;
+    margin-top: 20rem;
+}
+
+.letter_main h1 {
+    font-weight: bold;
+    font-size: 60px;
+    color: #fff4f4;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.letter_main p {
+    padding: 1rem;
+    font-size: 24px;
+    color: #f4f5f7;
+}
+
+.pricing_plan_cta {
+    text-decoration: none;
+    text-align: center;
+    background-color: #cbe300;
+    color: #0c1014;
+    padding: 16px 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pricing_plan_cta:hover {
+    border: 2px solid #cbe300;
+    background-color: transparent;
+    color: #fff;
+}
+
+/* about-me */
+
+.about-me {
+    margin: 1px;
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.letter-main {
+    background-color: #182361;
+    padding: 2rem;
+    width: auto;
+    margin: 1rem;
+    text-align: center;
+}
+
+.image {
+    
+}
