@@ -1,0 +1,30 @@
+a {
+    display: inline-block;
+    margin-bottom: 2em;
+}
+
+a[target="_blank"]::after {
+    content: url(../img/back.svg);
+    margin-left: .9em;
+}
+
+a[href^="#"]::before {
+    content: url(../img/pdf.svg);
+    margin-left: .5em;
+}
+
+input[type="checkbox"]:checked + label {
+    color: green;
+}
+
+input[type="checkbox"]:not(checked) + label {
+    color: rgb(189, 79, 35);
+}
+
+input[type="checkbox"]:disabled + label {
+    color: rgb(8, 23, 154);
+}
+
+li li:nth-child(3) {
+    background-color: blueviolet;
+}

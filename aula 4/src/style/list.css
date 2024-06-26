@@ -1,0 +1,19 @@
+a[href="#"] {
+    opacity: .2;
+}
+
+a[href^="http"] {
+    color: rgb(220, 81, 34);
+}
+
+a[href$=".html"] {
+    color: green;
+}
+
+a[target="_blank"]{
+    text-decoration: none;
+}
+
+a::before {
+    content: '>>>';
+}

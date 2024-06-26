@@ -1,0 +1,27 @@
+article {
+    outline: 3px solid rgb(170, 59, 192);
+}
+
+article a{
+    color: rgb(193, 18, 103);
+}
+
+article a > b { /* seleciona o filho direto */
+    color: rgb(214, 114, 31);
+}
+
+article h3 + p{ /*seleciona o irmão adjacente*/
+    background-color: rgb(203, 220, 20);
+}
+
+hr ~ p {
+    border: 3px solid rgb(147, 14, 23);
+}
+
+.destaque {
+    padding-left: 128px;
+}
+
+p:not(.destaque){
+    background-color: rgb(118, 207, 102);
+}
