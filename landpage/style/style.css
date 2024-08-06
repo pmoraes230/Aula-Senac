@@ -77,7 +77,7 @@ nav a {
 }
 
 .wrapperContainer-fixed {
-    position: sticky; /* Fixa a propriedade na tela quando rolar */
+   /* Fixa a propriedade na tela quando rolar */
     width: 100%;
     top: 0;
     left: 0;
@@ -152,7 +152,15 @@ nav a {
 
 .curso_card {
     flex: 1;
+    transition: 0.4s;
 }
+
+.curso_card:hover { /*hover escala card*/
+    scale: 1.05;
+    background-color: #ccc;
+    border-radius: 8px;
+}
+
 
 .curso_card img {
     display: block;
@@ -201,6 +209,13 @@ iframe {
     text-align: right;
     font: normal 400 1.8rem 'inter', sans-serif;
     padding: 3rem 0;
+}
+
+.button-back {
+    position: fixed;
+    margin-left: 95%;
+    margin-top: 45%;
+    border-radius: 1rem;
 }
 
 .footer {
