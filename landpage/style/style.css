@@ -1,8 +1,27 @@
 :root {
     --primary-color: #fed001; /*Define variável globais css que podem ser usadas no documento*/
 }
+
+* {
+    margin: 0;
+}
+
 html {
     font: 400 62.5% 'inter', sans-serif;
+    scroll-behavior: smooth; /* SUAVISA A ROLAGEM NA PÁGINA */
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(156, 156, 156);        /* color of the tracking area */
+}
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #ccc;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
 }
 
 p, 
@@ -121,8 +140,75 @@ nav a {
     text-align: center;
 }
 
+.cursos{
+    text-align: center;
+}
+
 .cursosContainer {
     display: flex;
     text-align: left;
     gap: 2rem;
+}
+
+.curso_card {
+    flex: 1;
+}
+
+.curso_card img {
+    display: block;
+    width: 100%;
+}
+
+.curso_card h3 {
+    font-size: 2.4rem;
+}
+
+.curso_card p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.curso_card_content {
+    padding: 1rem 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 0 0 8px 8px;
+    border-top: transparent;
+}
+
+.escola {
+    display: flex;
+    gap: 7rem;
+    padding-top: 6rem;
+}
+
+.escola_title {
+    font-size: 3.2rem;
+    margin-top: 2rem;
+    color: #fafafa;
+}
+
+.escola p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #fafafa;
+}
+
+iframe {
+    width: 100%;
+}
+
+.contatos_adress {
+    text-align: right;
+    font: normal 400 1.8rem 'inter', sans-serif;
+    padding: 3rem 0;
+}
+
+.footer {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4.5rem;
+}
+
+.footer a {
+    color: inherit;
 }
