@@ -41,6 +41,10 @@ h3 {
     font-size: 3.2rem;
 }
 
+.cabecalho-mb {
+    display: none;
+}
+
 nav a {
     color: inherit; /*Eles herdam a cor do texto do elemento pai.*/
 }
@@ -227,3 +231,7 @@ iframe {
 .footer a {
     color: inherit;
 }
+
+
+/* RESPONSIVIDADE */    
+/* @media(min-widht:) */
