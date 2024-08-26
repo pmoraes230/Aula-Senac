@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora de operadores</h1>
+
+        <label for="number1" class="number1">Primeiro Número</label>
+        <input type="number" name="number1" id="number1">
+
+        <label for="number2">Segundo Número</label>
+        <input type="number" name="number2" id="number2">
+
+        <label>Operações
+            <select name="operadores" id="operadores">
+                <option value="soma">Soma</option>
+                <option value="subtração">Subtração</option>
+                <option value="multiplicação">Multiplicação</option>
+                <option value="divisão">Divisão</option>
+            </select>
+        </label>
+        <button onclick="calc()">Calcular</button>
+        <button onclick="clear()">Limpar campos</button>
+        <output id="resultado">Insira os valores e selecione a operação</output>
+    </div>
+
+    <script src="./js/calculadora.js"></script>
+</body>
+
+</html>
