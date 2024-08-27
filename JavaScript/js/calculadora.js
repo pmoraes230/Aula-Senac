@@ -1,8 +1,3 @@
-function clear(){
-    document.getElementById("number1").value = '';
-    document.getElementById("number2").value = '';
-}
-
 function calc() {
     let number_1 = parseFloat(document.getElementById('number1').value);
     let number_2 = parseFloat(document.getElementById('number2').value);
@@ -31,3 +26,8 @@ function calc() {
     }
     document.getElementById('resultado').innerHTML = `O resultado da ${operadocao} é ${resultado}`;
 };
+
+function limpar(){
+    document.getElementById('number1').value = ''
+    document.getElementById('number2').value = ''
+}
