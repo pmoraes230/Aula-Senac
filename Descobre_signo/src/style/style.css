@@ -90,6 +90,7 @@ body {
     font-family: sans-serif;
     color: #fff;
     margin-bottom: 20px;
+    position: relative; /* Para que o ícone do menu possa ser posicionado relativamente */
 }
 
 .Navbar_Link {
@@ -105,6 +106,8 @@ body {
 
 .Navbar_Items {
     display: flex;
+    flex-direction: row;
+    gap: 1rem; /* Espaçamento entre os itens do menu */
 }
 
 .Nav_Link {
@@ -121,25 +124,26 @@ body {
 
 .Navbar_link_toggle {
     display: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    right: 16px; 
+    top: 16px; 
+    z-index: 1000; 
 }
 
 @media only screen and (max-width: 768px) {
-    .Navbar_Items, .Navbar {
+    .Navbar_Items {
+        display: none; 
         flex-direction: column;
-    }
-
-    .Navbar_items {
-        display: none;
-    }
-
-    .Navbar_ToggleShow {
-        display: flex;
+        width: 100%;
     }
 
     .Navbar_link_toggle {
-        align-self: flex-end;
-        display: initial;
-        position: absolute;
-        cursor: pointer;
+        display: block;
+    }   
+
+    .Navbar_ToggleShow {
+        display: flex; 
     }
 }

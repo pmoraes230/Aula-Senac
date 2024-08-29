@@ -95,42 +95,11 @@ function verificarSigno() {
     document.getElementById('resultado').innerHTML = ' Seu Signo é: ' + signo
 }
 
-function excluirItemSelecionado() {
-    var itens = document.getElementById('itens');
-    if (itens.selectIndex == -1) {
-        alert('Selecione um item na lista!');
-        return;
-    }
-    var indice = itens.selectIndex;
-    var itemSelecionado = itens.options[indice].text;
-
-    var resultado = confirm('deseja excluir o item ' + itemSelecionado + ' ?');
-    if (resultado) {
-        itens.remove(indice);
-        alert('O item ' + itemSelecionado + ' foi removido da lista!');
-    } else {
-        alert('Você cancelou a exclusão do item ' + itemSelecionado + '.')
-    }
-}
-
-function adicionarItem() {
-    var novoItem = prompt('Digite o novo item')
-    if (novoItem) {
-        var itens = document.getElementById('itens');
-        var options = document.createElement('option')
-    options.text = novoItem
-    itens.add(options)
-    alert('O item ' + novoItem + ' foi adicionado')
-    }
-}
-
 function classToggle() {
     const navs = document.querySelectorAll('.Navbar_Items')
     navs.forEach(nav => nav.classList.toggle('Navbar_ToggleShow'))
 }
 
 document.getElementById('btnVerificarSigno').onclick = verificarSigno
-document.getElementById('btnExcluirItem').onclick = excluirItemSelecionado
-document.getElementById('btnAdicionarItem').onclick = adicionarItem
 
 document.querySelector('.Navbar_link_toggle').addEventListener('click', classToggle);
