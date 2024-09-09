@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h2>Lista de tarefas</h2>
+        <!-- Adicionar botões do filtro no HTML -->
+        <div class="filters">
+            <button id="filter-all">Todas</button>
+            <button id="filter-pending">Pendentes</button>
+            <button id="filter-completed">Concluídas</button>
+        </div>
+
+        <input type="text" id="task-input" placeholder="Nova Tarefa...">
+        <button id="add-task-btn"><i class="fa-solid fa-plus"></i> Adicionar</button>
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="./script/listatarefas.js"></script>
+</body>
+</html>
